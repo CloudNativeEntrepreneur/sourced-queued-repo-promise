@@ -58,9 +58,9 @@ export function QueuedRepo(repo) {
     this._locks[entity.id].lock();
   };
 
-  copy.commit = async function (entity) {
+  copy.commit = async function (entity, options?) {
     this._ensureQueue(entity.id);
-    await this._commit(entity);
+    await this._commit(entity, options);
     this._locks[entity.id].unlock();
   };
 
