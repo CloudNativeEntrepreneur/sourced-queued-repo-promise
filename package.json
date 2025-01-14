@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/CloudNativeEntrepreneur/sourced-queued-repo-promise#readme",
   "dependencies": {
-    "fastq": "1.17.1"
+    "fastq": "1.18.0"
   },
   "devDependencies": {
     "@commitlint/cli": "19.6.1",
