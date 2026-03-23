@@ -35,7 +35,7 @@
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
-    "@types/debug": "4.1.12",
+    "@types/debug": "4.1.13",
     "@types/jest": "27.5.2",
     "@types/lodash.clonedeep": "4.5.9",
     "@types/node": "20.19.25",
